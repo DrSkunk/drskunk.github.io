@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "deploy": "yarn build && gh-pages -d public --remote master",
     "develop": "cross-env CYPRESS_SUPPORT=y gatsby develop",
     "dev": "gatsby develop -o",
     "start": "yarn develop",
@@ -76,6 +77,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.17.0",
     "gatsby-cypress": "^0.2.17",
+    "gh-pages": "^2.2.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.19.1",
     "start-server-and-test": "^1.10.6"
