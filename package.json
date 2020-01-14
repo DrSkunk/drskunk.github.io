@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "yarn build && gh-pages -d public --remote master",
+    "deploy": "yarn build && gh-pages -d public",
     "develop": "cross-env CYPRESS_SUPPORT=y gatsby develop",
     "dev": "gatsby develop -o",
     "start": "yarn develop",

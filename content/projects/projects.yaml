@@ -8,7 +8,7 @@
     - 'IvUU8joBb1Q'
     - 'isosWOzmbe0'
   cover: './mmx/projects-mmx-001.png'
-  desc: 'In 2016 bandleader Martin Molin of the band <a href="https://wintergatan.net/" title="Wintergatan band website">Wintergatan</a> released the "Marble Machine" video. Soon after Martin started working on a new and improved version, called the Marble Machine X. This build is ongoing and is a collaborative effort of about 20 engineers from all around the world, including me. My part of the job consist of converting the digitally composed music into templates to be put on the machine. You can check out weekly video updates <a href="https://www.youtube.com/channel/UCcXhhVwCT6_WqjkEniejRJQ" title="Wintergatan YouTube channel">here on the Wintergatan YouTube channel.</a>'
+  desc: 'In 2016 bandleader Martin Molin of the band <a href="https://wintergatan.net/" title="Wintergatan band website">Wintergatan</a> released the "Marble Machine" video. Soon after Martin started working on a new and improved version, called the Marble Machine X. This build is ongoing and is a collaborative effort of about 20 engineers from all around the world, including me. My part of the job consists of converting the digitally composed music into templates to be put on the machine. You can check out weekly video updates <a href="https://www.youtube.com/channel/UCcXhhVwCT6_WqjkEniejRJQ" title="Wintergatan YouTube channel">here on the Wintergatan YouTube channel.</a>'
 - title: 'Tik Tak'
   title_detail: 'Tik Tak'
   slug: 'tiktak'
@@ -38,7 +38,7 @@
   images: 'videowall'
   youtube: []
   cover: './videowall/projects-videowall-001.jpg'
-  desc: 'Videowall built with old monitors and a bunch of Raspberry Pi computers. Built for the 2017 concert of Snow Patrol at The Kruitfabriek. Built on behalf of Flemish radio station Studio Brussel.'
+  desc: 'Videowall built with old monitors and a bunch of Raspberry Pi computers. Made for the 2017 concert of Snow Patrol at The Kruitfabriek. Built on behalf of Flemish radio station Studio Brussel.'
 - title: 'Telenet Digibende'
   title_detail: 'Telenet Digibende'
   slug: 'digibende'

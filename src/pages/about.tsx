@@ -26,7 +26,7 @@ const About = () => {
       >
         <h1>I've been expecting you ...</h1>
         <p>
-          Greetings, my name is Dr. Skunk (Sebastiaan Jansen), a {ageInYears}
+          Greetings, my name is Sebastiaan Jansen, aka Dr. Skunk, a {ageInYears}
           -year-old employee of the Flemish broadcaster{' '}
           <a href="https://www.vrt.be/" title="VRT main website">
             VRT
@@ -38,7 +38,17 @@ const About = () => {
           department where I work mostly on full-stack rapid prototyping. Most
           projects are built using a combination of React, Node.js and Python.
           These projects are used in almost every department in VRT, including
-          "De Warmste Week", MNM and VRT NWS. Some of these projects are:{' '}
+          <a href="https://dewarmsteweek.be/" title="Homepage De Warmste Week">
+            "De Warmste Week",
+          </a>{' '}
+          <a href="https://mnm.be/" title="MNM homepage">
+            MNM
+          </a>{' '}
+          and{' '}
+          <a href="https://www.vrt.be/vrtnws/" title="VRT NWS homepage">
+            VRT NWS
+          </a>
+          . Some of these projects are:{' '}
           <a href="https://www.projectmarconi.eu/">Marconi</a>,{' '}
           <a href="https://www.projectcpn.eu/">CPN</a> and{' '}
           <a href="https://fandango-project.eu/">Fandango</a>.
