@@ -8,7 +8,7 @@ module.exports = {
   siteUrl: 'https://sebastiaanjansen.be', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo.png', // Used for SEO and manifest
-  siteDescription: 'Image-heavy portfolio with a showcase of maker projects',
+  siteDescription: 'Portfolio of maker and developer Sebastiaan Jansen',
   author: 'Sebastiaan Jansen', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
