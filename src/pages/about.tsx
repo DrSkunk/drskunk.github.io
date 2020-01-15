@@ -74,6 +74,9 @@ const About = () => {
           Sometimes the hair on that spot becomes white, which you can see on my
           head. So no, it's not contagious and no, I don't dye my hair.
         </p>
+        <p>
+          Picture by <a href="https://guillaumedecock.com/">Guillaume Decock</a>
+        </p>
       </AnimatedBox>
     </Layout>
   );
