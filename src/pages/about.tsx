@@ -37,7 +37,7 @@ const About = () => {
           </a>{' '}
           department where I work mostly on full-stack rapid prototyping. Most
           projects are built using a combination of React, Node.js and Python.
-          These projects are used in almost every department in VRT, including
+          These projects are used in almost every department in VRT, including{' '}
           <a href="https://dewarmsteweek.be/" title="Homepage De Warmste Week">
             "De Warmste Week",
           </a>{' '}
