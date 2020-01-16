@@ -69,7 +69,7 @@ const About = () => {
         </p>
         <h1>So what's the deal with your hair?</h1>
         <p>
-          So right, I get asked this a lot. I have a auto-immune skin condition
+          So right, I get asked this a lot. I have an autoimmune skin condition
           called vitiligo which makes patches of skin lose their pigment.
           Sometimes the hair on that spot becomes white, which you can see on my
           head. So no, it's not contagious and no, I don't dye my hair.
