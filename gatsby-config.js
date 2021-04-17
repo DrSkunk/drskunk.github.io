@@ -1,10 +1,25 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
+    // Used for the title template on pages other than the index site
+    siteTitle: `Sebastiaan Jansen`,
+    // Default title of the page
+    siteTitleAlt: `Portfolio of Sebastiaan Jansen - DrSkunk`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Portfolio of Sebastiaan Jansen - DrSkunk`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://sebastiaanjansen.be`,
+    // Used for SEO
+    siteDescription: `Portfolio of maker and developer Sebastiaan Jansen.`,
+    // Will be set on the html tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@ikbensebastiaan`,
   },
   plugins: [
     {
@@ -25,18 +40,19 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-instagram`,
+      resolve: "gatsby-source-instagram",
       options: {
-        username: `2315642426`,
+        access_token: process.env.ACCESS_TOKEN,
+        instagram_id: process.env.BUSINESS_ID,
       },
     },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+        name: `Portfolio of Sebastiaan Jansen`,
+        short_name: `Sebastiaan Jansen`,
+        description: `Portfolio of maker and developer Sebastiaan Jansen.`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#b75e09`,
@@ -59,4 +75,4 @@ module.exports = {
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-netlify`,
   ],
-}
+};
