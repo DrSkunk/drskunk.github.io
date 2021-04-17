@@ -11,6 +11,7 @@ const YouTube = (props) => (
     }}
   >
     <iframe
+      title={props.id}
       style={{
         position: "absolute",
         top: 0,
