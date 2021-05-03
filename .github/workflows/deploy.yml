@@ -9,12 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - env:
-          ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
-          GOOGLE_ANALYTICS_ID: UA-77204739-1
-          BUSINESS_ID: 17841403847399914
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
+        env:
+            ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
+            GOOGLE_ANALYTICS_ID: UA-77204739-1
+            BUSINESS_ID: 17841403847399914
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           gatsby-args: --prefix-paths
